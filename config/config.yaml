@@ -1,0 +1,20 @@
+server:
+  host: "0.0.0.0"
+  port: 8765
+  max_connections: 10
+
+audio:
+  sample_rate: 16000
+  channels: 1
+  dtype: float32
+  chunk_size: 1024
+
+models:
+  whisper:
+    model_size: "base"
+    device: "cuda"
+    compute_type: "float16"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

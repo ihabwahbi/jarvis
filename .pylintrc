@@ -1,0 +1,5 @@
+[MASTER]
+ignored-modules=pytest
+
+[MESSAGES CONTROL]
+disable=C0111,C0103,E0401,C0415
